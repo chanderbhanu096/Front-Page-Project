@@ -109,4 +109,212 @@ a:link {
 }
 #type-msg
 {animation:  typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
+}.banner
+{
+    display: flex;
+    background-color: #d4edd8;
+    justify-content: space-around;
+
+}
+.msg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+}
+.msg span
+{
+    font-family:Nunito, sans-serif;
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #2c3038;
+    font-weight: 500;
+}
+.msg p
+{
+    text-align: center;
+    font-size: 20px;
+    color:#555a64;
+    margin-top: 0.8rem;
+    font-family:Nunito, sans-serif;
+    line-height:1.2;
+    font-weight: 400;
+}
+
+.img img
+{
+    width: 350px;
+    height: 500px;
+    padding: 20px 20px 0 0;
+}
+#type-msg
+{
+    animation:  typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
+}
+.trust
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    padding: 70px 150px 70px 150px;
+    box-sizing: border-box;
+}
+
+.item
+{
+    text-align: center;
+    padding: 2.4rem;
+    box-sizing: border-box;
+}
+.item h4
+{
+    text-align: center;
+    color:#2c3038;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-family:Nunito, sans-serif;
+}
+.item p 
+{
+    color: #555a64;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 0.4rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:Nunito, sans-serif;
+}
+.item img
+{
+    width: 60px;
+    height: 60px;
+}
+
+.suitable
+{
+    background-color:#f8f9fd;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.suitable h2
+{
+    font-size: 1.8rem;
+    font-family:Nunito, sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    color:#2c3038;
+}
+.suitable p 
+{
+    width: 50%;
+    font-size: 1rem;
+    color: #555a64;
+    line-height: 1.4;
+    margin: 1rem auto;
+    font-family:Nunito, sans-serif;
+}
+.suitable .btn
+{
+    margin-top: 50px;
+    font-family:Nunito, sans-serif;
+    
+}
+.suitable .btn button
+{
+    background-color:  #23cf5f;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    border:none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.answer
+{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.img-why img
+{
+    width: 350px;
+    height: 500px;
+}
+
+/* Footer */
+.footer{
+    background-color: #303036;
+    color: #d3d3d3;
+    height:400px;
+    position: relative;
+}
+
+.footer .footer-content{
+    border: 1px solid red;
+    display: flex;
+    height: 350px;
+}
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+}
+
+.footer .footer-content .about{
+    padding:15px;
+}
+.footer .footer-content .about h1 span{
+    color: #05f7ff;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .social a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+
+}
+#social{
+    list-style-type: none;
+    padding:2px;
+    flex-direction: row;
+    display: flex;
+
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    border: 1px solid red;
+}
+
+.footer .footer-bottom{
+    background:#343a40;
+    color: #686868;
+    height: 28px;
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom:0px;
+    left: 0px;
+    padding-top:20px
+
 }
