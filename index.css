@@ -264,7 +264,6 @@ a:link {
 }
 
 .footer .footer-content{
-    border: 1px solid red;
     display: flex;
     height: 350px;
 }
@@ -301,9 +300,64 @@ a:link {
     display: flex;
 
 }
+
+.footer .footer-content .footer-section{
+    padding:30px;
+}
+
+#list-links a li{
+    margin-top: 5px;
+    display: block;
+    font-size:1.2em;
+    transition: all 0.3s;
+    font-family: Nunito, sans-serif;
+    color:rgb(235, 247, 252);
+}
+
+#list-links a li:hover{
+    color:white;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.footer .footer-content .contact-form form{
+    display:flex;
+    flex-direction: column;
+    border-radius: 2.8rem;
+}
+
+.footer .footer-content .contact-form .contact-input{
+   background: #272727;
+   color: white;
+   margin-bottom: 10px;
+   line-height:1.5rem;
+   padding:.9rem 1.4rem;
+   border-radius: 15px;
+   border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+    background:#1a1a1a
+}
+
+.footer .footer-content .contact-form form button{
+    padding:.5rem 1rem;
+    background:#006669;
+    color: white;
+    border:1px solid transparent;
+    border-radius: .25rem;
+}
+.btn-big{
+    padding:.7rem 1.3rem;
+    line-height:1.3rem;
+}
+.footer .footer-content .contact-form form button:hover{
+    color: white !important;
+    background:#005255;
+}
+
 .footer .footer-content .footer-section{
     flex: 1;
-    border: 1px solid red;
 }
 
 .footer .footer-bottom{
